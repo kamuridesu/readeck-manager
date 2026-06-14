@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: readeck-manager
+  description: A bare repository provisioned via Backstage
+  annotations:
+    gitea.com/project-slug: kamuridesu/readeck-manager
+    github.com/project-slug: kamuridesu/readeck-manager
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kamuridesu
